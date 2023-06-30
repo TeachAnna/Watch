@@ -196,7 +196,7 @@ hr {
 .new_catalog {
     display: flex;
     flex-direction: column;
-    margin-top: 40%;
+    margin-top: 450px;
 }
 
 .catalog a {
@@ -489,6 +489,24 @@ footer a {
     }
 }
 
+ @media screen and (max-width: 1578px) {
+  
+
+.seasons {
+        width: 60%;
+        height: 580px;
+    }
+
+    .new_catalog {
+        margin-top: 350px;
+    }
+
+    .catalog {
+        height: 580px;
+    } 
+
+} 
+
 @media screen and (max-width: 1178px) {
     .arrival li {
         width: 27%;
@@ -501,14 +519,18 @@ footer a {
     .link a {
         font-size: 12px;
     }  
-        .catalog {
-           
-            height: 560px;
-        }
-            .seasons {
-        height: 560px;
+
+    .seasons {
         width: 60%;
+        height: 580px;
     }
+
+    .new_catalog {
+        margin-top: 350px;
+    }
+         .catalog {
+             height: 580px;
+         }
 
 }
 
