@@ -134,10 +134,10 @@ h1 {
 
 .seasons {
     background: #000;
-    padding: 52px 37.5px;
+    padding: 93px 37.5px;
     text-align: center;
     width: 60%;
-    height: 528px;
+    height: 730px;
 }
 
 .season {
@@ -161,7 +161,7 @@ h3 {
     font-family: 'Playfair Display', serif;
     color: #fff;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
     margin: 25px 0  10px;
 }
@@ -183,7 +183,7 @@ h3 {
    background: url(../image/man_1.jpg) no-repeat;
    background-size: 100% 100%;
    width: 50%;
-   height: 528px;
+   height: 730px;
    display: flex;
    flex-direction: column;
 }
@@ -248,7 +248,7 @@ span {
     flex-wrap: wrap;
     justify-content: center;  
     margin-top: 51.5px;
-    padding: 0 18%;
+    padding: 0 15%;
 }
 
 .arrival div {
@@ -263,7 +263,7 @@ span {
 .arrival li{
     color: #fff;
     margin: 0 11.5px 40px;
-    width: 21%;
+    width: 20%;
     text-align: left;
     font-size: 16px;
     font-family: 'Playfair Display', serif;
@@ -316,7 +316,7 @@ span {
 article {
     text-align: left;
     width: 50%;
-    margin: 0 5%;
+    margin: 3% 5%;
 }
 
 article p{
@@ -484,11 +484,6 @@ footer a {
 }
 
 @media screen and (min-width: 1000px) {
-    
-    .arrival li {
-        width: 27%;
-    }
-
     menu {
         display: none;
     }
@@ -506,6 +501,15 @@ footer a {
     .link a {
         font-size: 12px;
     }  
+        .catalog {
+           
+            height: 560px;
+        }
+            .seasons {
+        height: 560px;
+        width: 60%;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -528,7 +532,7 @@ footer a {
 
     .catalog {      
         width: 100%;
-        height: 730px;
+        height: 600px;
     }
 
     .collection {
